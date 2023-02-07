@@ -8,21 +8,17 @@
           <title>Hello World</title>
         </head>
         <body>
-            <?php echo "Hello World";?>
-            <br><?php
-            echo "// = dit is een comment voor een php regel.";
-            ?>
-            <br>
-            <?php
-            echo "# = dit is een comment voor een php regel.";
-            ?>
-            <br>
-            <?php
-            echo "/* = dit is een comment voor meerdere php regels.";
-            ?>
-            <br>
-            <?php
-            echo " Parse error: syntax error, unexpected end of file = een error die verschijnt als iets niet goed afgesloten is."?>
+        <?php
+echo "Hello world";
+// dit is een command
+# dit is een command
+/* dit is een command */
+
+/* Parse error: syntax error, unexpected end of file in C:\xampp\htdocs\programmeren-php\index.php on line 12.
+in deze fout melding is er als iets niet goed is afgesloten */
+?>
+
+
             </body>
             </html>
 
